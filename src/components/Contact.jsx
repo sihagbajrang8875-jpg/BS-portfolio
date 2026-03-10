@@ -47,11 +47,17 @@ export default function Contact(){
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Email</p>
-                  <p className="text-white font-medium">your-email@example.com</p>
+                  <p className="text-white font-medium">sihagbajrang8875@gmail.com</p>
+                  <a href="mailto:sihagbajrang8875@gmail.com?subject=Website%20Contact" className="text-indigo-300 hover:text-indigo-200 transition-colors">
+                    Send Email
+                  </a>
+                  
+
                 </div>
               </div>
 
               <div className="flex items-center p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-4">
                   <span className="text-xl">💼</span>
                 </div>
