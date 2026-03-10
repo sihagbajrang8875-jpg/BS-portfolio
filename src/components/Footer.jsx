@@ -54,7 +54,7 @@ export default function Footer(){
 
         <div className="border-t border-white/10 pt-6 sm:pt-8">
           <p className="text-slate-500 text-xs sm:text-sm">
-            © 2024 Bajrang Sihag. Built with ❤️ using React & Tailwind CSS
+            © 2024 Bajrang Sihag. All Rights Reserved.
           </p>
         </div>
       </div>

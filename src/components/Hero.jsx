@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../assets/profile-placeholder.svg'
+import profileImg from '../assets/baj.jpeg'
 
 export default function Hero(){
   return (

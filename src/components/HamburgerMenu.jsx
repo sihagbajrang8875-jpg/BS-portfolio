@@ -25,16 +25,16 @@ export default function HamburgerMenu() {
       {!isOpen && (
         <button
           onClick={toggleMenu}
-          className="md:hidden relative z-50 w-10 h-10 flex flex-col justify-center items-center group bg-gradient-to-br from-indigo-600/40 to-purple-600/40 rounded-lg border border-indigo-500/30 hover:border-indigo-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/25"
+          className="md:hidden relative z-50 w-10 h-10 flex flex-col justify-center items-center group bg-gradient-to-br from-indigo-600 to-purple-600 rounded-lg border border-indigo-400 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/40 hover:from-indigo-500 hover:to-purple-500"
           aria-label="Toggle menu"
         >
-          <span className={`block w-5 h-0.5 bg-gradient-to-r from-indigo-400 to-purple-400 transition-all duration-300 rounded-full ${
+          <span className={`block w-5 h-0.5 bg-white transition-all duration-300 rounded-full ${
             isOpen ? 'rotate-45 translate-y-1' : '-translate-y-1'
           }`}></span>
-          <span className={`block w-5 h-0.5 bg-gradient-to-r from-indigo-400 to-purple-400 transition-all duration-300 rounded-full ${
+          <span className={`block w-5 h-0.5 bg-white transition-all duration-300 rounded-full ${
             isOpen ? 'opacity-0' : 'opacity-100'
           }`}></span>
-          <span className={`block w-5 h-0.5 bg-gradient-to-r from-indigo-400 to-purple-400 transition-all duration-300 rounded-full ${
+          <span className={`block w-5 h-0.5 bg-white transition-all duration-300 rounded-full ${
             isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-1'
           }`}></span>
         </button>
@@ -51,7 +51,7 @@ export default function HamburgerMenu() {
         ></div>
 
         {/* Menu Panel */}
-        <div className={`absolute top-0 right-0 h-full w-80 max-w-[90vw] bg-gradient-to-b from-indigo-900/100 via-purple-900/100 to-indigo-900/100 backdrop-blur-xl border-l border-indigo-500/20 transform transition-transform duration-300 shadow-2xl shadow-indigo-500/10 ${
+        <div className={`absolute top-0 right-0 h-full w-80 max-w-[90vw] bg-gradient-to-b from-slate-950 via-indigo-950 to-slate-950 backdrop-blur-xl border-l border-indigo-500/50 transform transition-transform duration-300 shadow-2xl shadow-indigo-500/30 ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}>
           <div className="p-8">
